@@ -6,6 +6,21 @@
   height: 40vmin;
 }
 
+/*.imgSigla, .sigla {
+  display: inline-block;
+}
+
+ .imgSigla {
+  vertical-align: middle; 
+  padding-top: 10px; 
+} */
+
+ .sigla {
+  padding: 0px 5px;
+  font-size: 1rem;
+  font-family: georgia;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
