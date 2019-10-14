@@ -1,0 +1,18 @@
+.cont-posts {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+    
+  }
+  
+  .card-display {
+    border: 1px solid #afafaf;
+    box-sizing: border-box;
+    /* font-size: .5em; */
+    margin: 12px 5px;
+    /* flex: 1 calc(33% - 10px); */
+  }
+
+
+  
+  

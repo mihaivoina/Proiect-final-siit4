@@ -1,0 +1,221 @@
+"churches": [
+    {
+      "id": 1,
+      "name": "Biserica fortificată din Agnita",
+      "location":"Sibiu",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kirchenburg_agnetheln.jpg/320px-Kirchenburg_agnetheln.jpg",
+      "images":[""]
+    },
+    {
+      "id": 2,
+      "name": "Biserica fortificata din Feldioara",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Feldioara_Biserica_evanghelica_%283%29.jpg/320px-Feldioara_Biserica_evanghelica_%283%29.jpg",
+      "images":[""]
+    },
+    {
+      "id": 3,
+      "name": "Biserica fortificată din Prejmer",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "plan":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/RomanianSaxonianChurchTartlau_Prejmer0008jpg.JPG/722px-RomanianSaxonianChurchTartlau_Prejmer0008jpg.JPG",
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Prejmer_Fortified_Church_I.jpg/320px-Prejmer_Fortified_Church_I.jpg",
+      "images":[""]
+    },
+    {
+      "id": 4,
+      "name": "Biserica fortificată din Alma Vii",
+      "location":"Sibiu",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kirchenburg_Almen_Suedansicht.jpg/320px-Kirchenburg_Almen_Suedansicht.jpg",
+      "images":[""]
+    },
+    {
+      "id": 5,
+      "name": "Biserica fortificată din Rotbav",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 6,
+      "name": "Biserica fortificată din Viscri",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/ViscriKirchenburg.jpg/320px-ViscriKirchenburg.jpg",
+      "images":[""]
+    },
+    {
+      "id": 7,
+      "name": "Biserica fortificată din Mesendorf",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RO_BV_Biserica_fortificata_din_Mesendorf_%28104%29.jpg/320px-RO_BV_Biserica_fortificat/a_din_Mesendorf_%28104%29.jpg",
+      "images":[""]
+    },
+    {
+      "id": 8,
+      "name": "Biserica fortificată din Bunesti",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RO_BV_Biserica_evanghelica_din_Bunesti_%2852%29.jpg/320px-RO_BV_Biserica_evanghelica_din_Bunesti_%2852%29.jpg",
+      "images":[""]
+    },
+    {
+      "id": 9,
+      "name": "Biserica fortificată din Biertan",
+      "location":"Sibiu",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kirchenburg_Birth%C3%A4lm.jpg/316px-Kirchenburg_Birth%C3%A4lm.jpg",
+      "images":[""]
+    },
+    {
+      "id": 10,
+      "name": "Biserica Neagra",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1": "./images/bn.jpg",
+      "image2":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Brasov_Biserica_Neagra.jpg/320px-Brasov_Biserica_Neagra.jpg",
+      "images":[""]
+    },
+    {
+      "id": 11,
+      "name": "Biserica din deal, Sighisoara",
+      "location":"Mures",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 12,
+      "name": "Biserica fortificată din Harman",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 13,
+      "name": "Biserica fortificată din Codlea",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 14,
+      "name": "Biserica fortificată din Malancrav",
+      "location":"Sibiu",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 15,
+      "name": "Biserica fortificată din Sf. Gheorghe",
+      "location":"Covasna",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 16,
+      "name": "Biserica fortificată din Carta",
+      "location":"Harghita",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 17,
+      "name": "Biserica fortificată din Calnic",
+      "location":"Covasna",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 18,
+      "name": "Biserica fortificată din Copsa Mare",
+      "location":"Sibiu",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 19,
+      "name": "Biserica fortificată din Seica Mare",
+      "location":"Sibiu",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 20,
+      "name": "Biserica fortificată din Bazna",
+      "location":"Sibiu",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 21,
+      "name": "Biserica fortificată din Valea Viilor",
+      "location":"Sibiu",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 22,
+      "name": "Biserica fortificată din Saschiz",
+      "location":"Mures",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 23,
+      "name": "Biserica fortificată din Darjiu",
+      "location":"Harghita",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    },
+    {
+      "id": 24,
+      "name": "Biserica fortificată din Ghimbav",
+      "location":"Brasov",
+      "type":"",
+      "description": ["paragraf1", "paragraf2", "paragraf3"],
+      "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images":[""]
+    }
+  ]
+  
