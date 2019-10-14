@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import Visit from './Visit/Visit';
+import VisitDetails from './Visit/VisitDetails';
 import FortifiedChurches from './FortifiedChurches/FortifiedChurches';
 import FortressChurches from './FortressChurches/FortressChurches';
 import FortifiedWalls from './FortifiedWalls/FortifiedWalls';
@@ -24,7 +25,8 @@ function App() {
   <Router>
       <NavigationBar />
       <Route exact path="/" component={ () => <h2>Transylvania's Treasures - The Fortified Churches</h2> } />
-      <Route  path="/visit" component={ Visit } />
+      <Route  exact path="/visit" component={ Visit } />
+      <Route  path="/visit/details" component={ VisitDetails } />
       <Route  path="/fortified_churches" component={ FortifiedChurches } />
       <Route  path="/churches_with_fortified_enclosure_walls" component={ FortifiedWalls } />
       <Route  path="/fortress_Churches" component={ FortressChurches } />

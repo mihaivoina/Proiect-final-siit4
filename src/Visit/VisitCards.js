@@ -1,6 +1,7 @@
 import React from 'react';
 // import Card from 'react-bootstrap/Card';
 // import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 import './Visit.css';
 
 const VisitCards = ({ churchNameList, image1List, location }) => {
@@ -57,7 +58,9 @@ const VisitCards = ({ churchNameList, image1List, location }) => {
                         <p className="card-text text-center">{location}</p>
                     </div>
                     <div className="card-footer text-center">
-                        <a href="#" className="btn btn-primary">Detalii</a>
+                        <Link as={ Link } to="/visit/details" className="btn btn-primary">
+                            Detalii
+                        </Link>
                     </div>
                 </div>
             </div>
