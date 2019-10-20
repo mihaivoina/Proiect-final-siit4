@@ -1,0 +1,41 @@
+
+.container-margin {
+    margin:10px;
+}
+.titlu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* font-weight: bold; */
+}
+.form-container{
+    margin: auto;
+    width: 60%;
+}
+.input-wraper{
+    box-sizing: border-box;
+    margin: 0px 15px;
+}
+.input-comment {
+    color: #6c757d;
+    margin-top: .25rem;
+    font-size: 80%;
+    font-weight: 400;
+}
+.input-form {
+    margin: 3px 0px 10px;
+    /* padding: 5px; */
+    padding: .375rem .75rem;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

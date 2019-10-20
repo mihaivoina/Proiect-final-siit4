@@ -1,247 +1,459 @@
-{"users": [
-  {
-    "id": 1,
-    "username": "pauln",
-    "password": "parola",
-    "email": "paul.negoescu@scoalainformala.ro",
-    "firstName": "Paul",
-    "lastName": "Negoescu"
-  },
-  {
-    "id": 2,
-    "username": "andrei",
-    "password": "parola",
-    "email": "andrei.popescu@scoalainformala.ro",
-    "firstName": "Andrei",
-    "lastName": "Popescu"
-  },
-  {
-    "id": 3,
-    "username": "mihai",
-    "password": "parola",
-    "email": "mihai.vasilescu@scoalainformala.ro",
-    "firstName": "Mihai",
-    "lastName": "Vasilescu"
-  }
-],
-"churches": [
-  {
-    "id": 1,
-    "name": "Biserica fortificată din Agnita",
-    "location":"Sibiu",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kirchenburg_agnetheln.jpg/320px-Kirchenburg_agnetheln.jpg",
-    "images":[""]
-  },
-  {
-    "id": 2,
-    "name": "Biserica fortificata din Feldioara",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Feldioara_Biserica_evanghelica_%283%29.jpg/320px-Feldioara_Biserica_evanghelica_%283%29.jpg",
-    "images":[""]
-  },
-  {
-    "id": 3,
-    "name": "Biserica fortificată din Prejmer",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "plan":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/RomanianSaxonianChurchTartlau_Prejmer0008jpg.JPG/722px-RomanianSaxonianChurchTartlau_Prejmer0008jpg.JPG",
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Prejmer_Fortified_Church_I.jpg/320px-Prejmer_Fortified_Church_I.jpg",
-    "images":[""]
-  },
-  {
-    "id": 4,
-    "name": "Biserica fortificată din Alma Vii",
-    "location":"Sibiu",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kirchenburg_Almen_Suedansicht.jpg/320px-Kirchenburg_Almen_Suedansicht.jpg",
-    "images":[""]
-  },
-  {
-    "id": 5,
-    "name": "Biserica fortificată din Rotbav",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
-    "images":[""]
-  },
-  {
-    "id": 6,
-    "name": "Biserica fortificată din Viscri",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/ViscriKirchenburg.jpg/320px-ViscriKirchenburg.jpg",
-    "images":[""]
-  },
-  {
-    "id": 7,
-    "name": "Biserica fortificată din Mesendorf",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RO_BV_Biserica_fortificata_din_Mesendorf_%28104%29.jpg/320px-RO_BV_Biserica_fortificata_din_Mesendorf_%28104%29.jpg",
-    "images":[""]
-  },
-  {
-    "id": 8,
-    "name": "Biserica fortificată din Bunesti",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RO_BV_Biserica_evanghelica_din_Bunesti_%2852%29.jpg/320px-RO_BV_Biserica_evanghelica_din_Bunesti_%2852%29.jpg",
-    "images":[""]
-  },
-  {
-    "id": 9,
-    "name": "Biserica fortificată din Biertan",
-    "location":"Sibiu",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kirchenburg_Birth%C3%A4lm.jpg/316px-Kirchenburg_Birth%C3%A4lm.jpg",
-    "images":[""]
-  },
-  {
-    "id": 10,
-    "name": "Biserica Neagra",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Brasov_Biserica_Neagra.jpg/320px-Brasov_Biserica_Neagra.jpg",
-    "image2": "./images/bn.jpg",
-    "images":[""]
-  },
-  {
-    "id": 11,
-    "name": "Biserica din deal, Sighisoara",
-    "location":"Mures",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Biserica_din_deal%2C_Sighi%C5%9Foara.jpg/320px-Biserica_din_deal%2C_Sighi%C5%9Foara.jpg",
-    "images":[""]
-  },
-  {
-    "id": 12,
-    "name": "Biserica fortificată din Harman",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/HonigbergKirchenburg1.jpg/320px-HonigbergKirchenburg1.jpg",
-    "images":[""]
-  },
-  {
-    "id": 13,
-    "name": "Biserica fortificată din Codlea",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Zeiden_Orthodoxe_Kirche1.jpg/320px-Zeiden_Orthodoxe_Kirche1.jpg",
-    "images":[""]
-  },
-  {
-    "id": 14,
-    "name": "Biserica fortificată din Malancrav",
-    "location":"Sibiu",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/M%C4%83l%C3%A2ncrav_church_exterior.jpg/320px-M%C4%83l%C3%A2ncrav_church_exterior.jpg",
-    "images":[""]
-  },
-  {
-    "id": 15,
-    "name": "Biserica fortificată din Sf. Gheorghe",
-    "location":"Covasna",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sepsiszentgyorgyi_reformatus_vartemplom.jpg/320px-Sepsiszentgyorgyi_reformatus_vartemplom.jpg",
-    "images":[""]
-  },
-  {
-    "id": 16,
-    "name": "Biserica fortificată din Carta",
-    "location":"Harghita - neactualizat",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
-    "images":[""]
-  },
-  {
-    "id": 17,
-    "name": "Biserica fortificată din Calnic",
-    "location":"Covasna",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Calnic_Citadel.JPG/320px-Calnic_Citadel.JPG",
-    "images":[""]
-  },
-  {
-    "id": 18,
-    "name": "Biserica fortificată din Copsa Mare",
-    "location":"Sibiu",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Copsa_Mare_Fortified_Church.jpg/320px-Copsa_Mare_Fortified_Church.jpg",
-    "images":[""]
-  },
-  {
-    "id": 19,
-    "name": "Biserica fortificată din Seica Mare",
-    "location":"Sibiu",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/SeicaMareSB_%282%29.JPG/320px-SeicaMareSB_%282%29.JPG",
-    "images":[""]
-  },
-  {
-    "id": 20,
-    "name": "Biserica fortificată din Bazna",
-    "location":"Sibiu",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BaznaSB_%2812%29.JPG/320px-BaznaSB_%2812%29.JPG",
-    "images":[""]
-  },
-  {
-    "id": 21,
-    "name": "Biserica fortificată din Valea Viilor",
-    "location":"Sibiu",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/ValeaViilorSB_%2821%29.JPG/320px-ValeaViilorSB_%2821%29.JPG",
-    "images":[""]
-  },
-  {
-    "id": 22,
-    "name": "Biserica fortificată din Saschiz",
-    "location":"Mures",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2007_07260607.JPG/320px-2007_07260607.JPG",
-    "images":[""]
-  },
-  {
-    "id": 23,
-    "name": "Biserica fortificată din Darjiu",
-    "location":"Harghita",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Derzs1.jpg/320px-Derzs1.jpg",
-    "images":[""]
-  },
-  {
-    "id": 24,
-    "name": "Biserica fortificată din Ghimbav",
-    "location":"Brasov",
-    "type":"",
-    "description": ["paragraf1", "paragraf2", "paragraf3"],
-    "image1":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Biserica_evanghelica_fortificata_din_Ghimbav_%281%29.jpg/320px-Biserica_evanghelica_fortificata_din_Ghimbav_%281%29.jpg",
-    "images":[""]
-  }
-]
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "paul",
+      "password": "parola",
+      "email": "paul.negoescu@scoalainformala.ro",
+      "firstName": "Paul",
+      "lastName": "Negoescu"
+    },
+    {
+      "id": 2,
+      "username": "andrei",
+      "password": "parola",
+      "email": "andrei.popescu@scoalainformala.ro",
+      "firstName": "Andrei",
+      "lastName": "Popescu"
+    },
+    {
+      "id": 3,
+      "username": "mihai",
+      "password": "parola",
+      "email": "mihai.voina@scoalainformala.ro",
+      "firstName": "Mihai",
+      "lastName": "Voina"
+    }
+  ],
+  "churches": [
+    {
+      "id": 1,
+      "name": "Biserica fortificată din Agnita",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "Bazilica ridicată în sec. al XIII-lea fără turn primeşte două secole mai târziu sisteme defensive, precum catul de apărare ridicat deasupra corului şi susţinut de arce. Acesta va fi demolat în sec. al XIX-lea. Prin înălţarea navelor laterale clădirea capătă aspectul de hală. Turnul de vest, al olarilor, este prevăzut cu drum de strajă şi parapet tip „fachwerk”. Zidul de incintă a fost demolat, dar s-au păstrat turnurile de apărare: turnul de poartă sau al dogarilor, cel al făurarilor, cel al croitorilor şi cel al cizmarilor. Nu numai construcţia în sine impresionează prin detalii şi tehnici, ci şi interiorul. Aici se păstrează altarul triptic (format din trei panouri, cele laterale fiind mobile) cu aripi duble, datând din 1650, operă de artă ce continuă tradiţia altarelor pre-Reformă.",
+        "Se spune că oraşul ar fi fost întemeiat de către Sfânta Agnes, iar mulţimea de obiective demne de atenţie sunt martori ai puterii ei ocrotitoare în lunga istorie a aşezării. Oraşul păstrează până astăzi datina arhaică a Paradei Lolelor, una dintre cele mai vechi şi mai importante tradiţii ale saşilor transilvăneni. Festivitatea are loc în fiecare an în luna ianuarie sau în februarie cu scopul de a izgoni iarna şi spiritele rele. În costume înfiorătoare, lolele mărşăluiesc prin oraş în zgomote de lanţuri şi cătuşe, cu bice şi roţi şi fac tot felul de farse. Pe lângă hainele negre zdrenţuite, podoaba de căpătâi a fiecărei lole este „larva”, o mască înfiorătoare acoperită cu blănuri.",
+        "Agnita a fost cunoscută în ultimul secol drept cea mai importantă staţie de tren pe traseul aşa-numitei „Mocăniţe”, care făcea legătura între Sibiu şi Sighişoara. În anul 2001 a fost închis şi ultimul tronson de cale ferată, iar de atunci se fac eforturi susţinute pentru lansarea unui trafic turistic sezonier cu vagoanele istorice.",
+        "Sursa: https://kirchenburgen.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kirchenburg_agnetheln.jpg/320px-Kirchenburg_agnetheln.jpg",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Agnita_Ansamblul_bisericii_evanghelice_fortificate_%283%29.jpg/320px-Agnita_Ansamblul_bisericii_evanghelice_fortificate_%283%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Agnita_Ansamblul_bisericii_evanghelice_fortificate_%284%29.jpg/320px-Agnita_Ansamblul_bisericii_evanghelice_fortificate_%284%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Agnita_Ansamblul_bisericii_evanghelice_fortificate_%285%29.jpg/320px-Agnita_Ansamblul_bisericii_evanghelice_fortificate_%285%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Agnita_Ansamblul_bisericii_evanghelice_fortificate_%281%29.jpg/320px-Agnita_Ansamblul_bisericii_evanghelice_fortificate_%281%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Szentagotai_evangelikus_templom.jpg/159px-Szentagotai_evangelikus_templom.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Biserica fortificata din Feldioara",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "Biserica evanghelică şi ruinele cetăţii Ordinului Cavalerilor Teutoni, aflate doar la un şant distanţă una de alta sunt mândria Feldioarei. Biserica romanică de sec. XIII, cu trei nave şi turn clopotniţă prezintă o particularitate interesantă: la al doilea nivel al turnului este construită o tribună de ctitor acoperită cu boltă. În sec. al XVIII-lea turnul primeşte un nou acoperiş, construit după modelul Biserica Neagră din Braşov.",
+        "Interiorul bisericii este bogat decorat, cu bolţi în cruce care sprijină în cor pe colonete cu capiteluri decorate cu motive vegetale, antropomorfice şi chiar scene biblice. Din altarul realizat înainte de Reformă se mai păstrează câteva panouri, depuse la Biserica Neagră. Din zidul de incintă se păstrează doar câteva urme, pe când zidurile cetăţii Ordinului Teuton realizate din piatră spartă şi piatră de râu încă se mai păstrează în apropiere. Zidul de incintă al acesteia din urmă avea 4m grosime şi era întărit cu patru turnuri. În incintă încă se mai pot recunoaştele urmele unei capele.",
+        "În vechi hrisoave şi picturi va dăinui veşnic cetatea Feldioara în toată măreţia ei, aşa cum a fost clădită de către cavalerii teutoni acum mai bine de 800 de ani. La începutul sec. al XIII-lea regele Andrei al II-lea al Ungariei dăruieşte Ţara Bârsei Ordinului Teutonic, care urma să apere granița de est a imperiului în expansiune. Cavalerii primeau în schimb imunitate și dreptul la autonomie şi administraţie proprie. Papa Honorius al III-lea le aprobă chiar şi dreptul de a bune bazele unui stat.",
+        "În 1211 începe construirea unei cetăți. Nobilii maghiari, simțindu-se amenințați de puterea crescândă a Ordinului, impun în 1225 evacuarea definitivă a acestuia din ținut. Localitatea este apoi preluată de către călugării cistercieni, care împreună cu sătenii încep să ridice în același secol o biserica fortificată, care va fi secole de-a rândul centrul vieții culturale și religioase a sașilor transilvani. Biserica se află nu departe de ruinele cetății cavalerilor, în mijlocul așezării.",
+        "Sursa: https://kirchenburgen.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Feldioara_Biserica_evanghelica_%283%29.jpg/320px-Feldioara_Biserica_evanghelica_%283%29.jpg",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Feldioara_507065%2C_Romania_-_panoramio.jpg/160px-Feldioara_507065%2C_Romania_-_panoramio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/RO_BV_Biserica_fortificata_din_Feldioara_%2845%29.jpg/320px-RO_BV_Biserica_fortificata_din_Feldioara_%2845%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RO_BV_Biserica_fortificata_din_Feldioara_%2837%29.jpg/320px-RO_BV_Biserica_fortificata_din_Feldioara_%2837%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RO_BV_Biserica_fortificata_din_Feldioara_%2836%29.jpg/141px-RO_BV_Biserica_fortificata_din_Feldioara_%2836%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/RO_BV_Biserica_fortificata_din_Feldioara_%2810%29.jpg/180px-RO_BV_Biserica_fortificata_din_Feldioara_%2810%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/RO_BV_Biserica_fortificata_din_Feldioara_%2828%29.jpg/180px-RO_BV_Biserica_fortificata_din_Feldioara_%2828%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/RO_BV_Biserica_fortificata_din_Feldioara_%2823%29.jpg/320px-RO_BV_Biserica_fortificata_din_Feldioara_%2823%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RO_BV_Biserica_fortificata_din_Feldioara_%2818%29.jpg/320px-RO_BV_Biserica_fortificata_din_Feldioara_%2818%29.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Biserica fortificată din Prejmer",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "Monument UNESCO",
+        "Datorită poziţiei strategice, biserica din Prejmer a fost puternic fortificată. Construcţia acesteia a fost începută de către cavalerii teutoni în 1218, iar după expluzarea acestora a fost finalizată de către cistercieni. Planul în formă de cruce greacă a fost modificat în perioada 1512-1515 prin anexarea a două nave laterale inegale şi prin extinderea navei centrale. Deasupra careului este ridicat în 1461 un turn clopotniţă. Clădirea bisericii nu a fost niciodată fortificată, ci a fost protejată de zidul de incintă înalt de 14m, întărit cu cinci turnuri de apărare, cu zwinger şi şanţ de apă. O caracteristică valoroasă păstrată până azi o reprezintă camerele de locuit şi cămările de provizii desfăşurate pe 4 niveluri pe faţa interioară a zidului, având în spate drumul de strajă.",
+        "Interiorul simplu nu păstrează urme de fresce, iar pictura de sec. XIX a fost îndepărtată cu ocazia restaurărilor. În interiorul bisericii atracţia principală o reprezintă altarul triptic, cu scena crucificării pe panoul central.",
+        "Biserica fortificată Prejmer a avut de-a lungul secolelor o importanţă strategică deosebită datorită amplasării ei la ieşirea din pasul Buzăului, pe unde aveau loc cele mai multe invazii ale Transilvaniei. Satul a fost atacat şi distrus de mai mult de 50 de ori între sec. XIII – XVII. Biserica fortificată însă a fost cucerită doar de puţine ori.Intrarea în incintă se face printr-un tunel lung de 30m protejat cu hersă (grilaj glisant din lemn întărit cu fier) şi porţi solide de stejar. Pe faţa interioară a masivului zid de incintă sunt construite mai mult de 270 de camere de locuit şi cămări de provizii, care puteau oferi în caz de atac adăpost pentru circa 1600 de săteni. Unele încăperi fac parte acum dintr-un muzeu. Numeroase scări şi coridoare care unesc încăperile şi se desfăşoară de-a lungul zidului sunt accesibile vizitatorilor. Prin ele se poate ajunge la maşiculiurile şi crenelurile exterioare ale zidului de apărare. Căţăratul pe drumurile de strajă labirintice şi întunecoase oferă o experienţă de neuitat, pe lângă impresia puternică despre ce însemna apărarea în cazul unui atac.",
+        "Sursa: https://kirchenburgen.org"
+      ],
+      "plan": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/RomanianSaxonianChurchTartlau_Prejmer0008jpg.JPG/722px-RomanianSaxonianChurchTartlau_Prejmer0008jpg.JPG",
+      "image1": "images/320px-Prejmer_Fortified_Church_I.jpg",
+      "image2": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Prejmer_Fortified_Church_I.jpg/320px-Prejmer_Fortified_Church_I.jpg",
+      "images": [
+        "http://www.turistderomania.ro/tdruplfiles/Cetatea-si-Biserica-de-la-Prejmer.jpg",
+        "https://romaniamama.ro/poza.php?src=/img/76111prejemr.jpg&q=100&w=320&h=240",
+        "https://romaniamama.ro/poza.php?src=/img/59177800px-tartlaukirchenburg1.jpg&q=100&w=320&h=240",
+        "https://romaniamama.ro/poza.php?src=/img/80695prejmer-poarta.jpg&q=100&w=320&h=240",
+        "https://romaniamama.ro/poza.php?src=/img/53597cetate7.jpg&q=100&w=320&h=240",
+        "https://romaniamama.ro/poza.php?src=/img/16494biserica-cetate-fortificata-medievala-prejmer-brasov-3.jpg&q=100&w=320&h=240",
+        "https://romaniamama.ro/poza.php?src=/img/62781627x0.jpg&q=100&w=320&h=240",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Kirchenburg_Tartlau1992_01.jpg/185px-Kirchenburg_Tartlau1992_01.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Todesorgel_Kirchenburg_Tartlau.jpg/180px-Todesorgel_Kirchenburg_Tartlau.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Orga_din_Prejmer_lui_Marian_Lucan.png/263px-Orga_din_Prejmer_lui_Marian_Lucan.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Kirchenburg_Tartlau1992.jpg/195px-Kirchenburg_Tartlau1992.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Biserica fortificată din Alma Vii",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "La începutul sec. al XIV-lea este ridicată mica biserică sală, care, pentru a face faţă atacurilor din ce în ce mai numeroase este fortificată la începutul sec. al XVI-lea prin supraînălţarea corului cu cat de apărare, prevăzut cu guri de tragere tip maşiculiu. Spre sfârşitul aceluiaşi secol biserica este înconjurată cu un zid de incintă prevăzut cu patru turnuri de apărare, orientate spre cele patru puncte cardinale. Primul nivel al turnului clopotniţei era locuibil, fiind prevăzut cu vatră. Al doilea nivel prezintă mici bovindouri la fiecare colţ, prevăzute cu câte 3 guri de tragere, detaliu constructiv întâlnit şi în landul Thüringen din Germania. La fel de interesant de vizitat este şi turnul de poartă, construcţie masivă pe 5 niveluri, dintre care trei prevăzute cu sisteme defensive şi cu drum de strajă la ultimul nivel.",
+        " Originea şi semnificaţia numelui aşezării nu pot fi în întregime identificate. Totuşi se presupune că au ar putea proveni din cuvîntul “almo”, care în limba germană veche înseamnă ulm sau ar putea deriva din cuvântul maghiar care desemnează mărul. În favoarea ultimului militează numeroasele livezi de pomi fructiferi din Sat şi din împrejurimile lui.În mijlocul satului, pe coama unui deal se află puternica biserică fortificată, care nu a fost cucerită niciodată. Se spune că Alma, soţia paznicului cetăţii este cea care ar fi văzut prima armata tătară apropiindu-se ameninţător şi pentru a le asigura sătenilor timpul necesar evacuării, s-a îmbrobodit cu zdrenţe şi şi-a mânjit faţa cu marmeladă şi funingine, îngrozind astfel atacatorii păgâni. Printre pomii plini de rod ai satului răsună şi poveşti hazlii: o tânără din sat ce lucra în Mediaş găseşte într-o bună zi în curte, zăcând fără suflare, toate gâştele stăpânilor. Cu părere de rău le jumuleşte, pentru a se folosi măcar de penele lor, iar trupşoarele neînsufleţite le aruncă la marginea râului. A doua zi, de necrezut: gâştele, goale-goluţe şi cu siguranţă cât se poate de revoltate, mărşaluiesc ţanţoş stârnind mare zarvă printre localnici. Greu au înţeles stăpânii că acestea mâncaseră vişinele folosite pentru lichior, ameţindu-se în aşa hal, încât au trecut drept moarte. Pentru a nu li se face pielea de găină, fiecare gâscă a fost îmbrăcată cu câte o rochiţă special confecţionată, ceea ce cu siguranţă a oferit o imagine cât se poate de pitorească.",
+        "Începând din anul 2009, Fundația Mihai Eminescu Trust (MET) are o activitate intensă în satul Alma Vii și desfășoară diferite proiecte pentru restaurarea bisericii fortificate, dar și pentru dezvoltatea satului în ansamblul său. Împreună cu parteneri internaționali a fost înființat „Centrul de interpretare a culturii tradiționale”.",
+        "Sursa: https://kirchenburgen.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kirchenburg_Almen_Suedansicht.jpg/320px-Kirchenburg_Almen_Suedansicht.jpg",
+      "images": [
+        "http://www.almavii.ro/wp-content/uploads/2016/01/AlmaVii-2.jpg",
+        "http://www.almavii.ro/wp-content/uploads/2016/10/AlmaViiFinal-29-650x441.jpg",
+        "http://www.almavii.ro/wp-content/uploads/2016/01/AlmaVii-7.jpg",
+        "http://www.almavii.ro/wp-content/uploads/2016/01/AlmaVii-20.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kirchenburg_Almen_Suedansicht.jpg/320px-Kirchenburg_Almen_Suedansicht.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kirchenburg_Almen_Westturm.jpg/320px-Kirchenburg_Almen_Westturm.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Biserica_Evanghelic%C4%83_Fortificat%C4%83_Alma_Vii.jpg/320px-Biserica_Evanghelic%C4%83_Fortificat%C4%83_Alma_Vii.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Alma_Vii_-_Biserica_evanghelic%C4%83_fortificat%C4%83_%28vedere_disnpre_nordvest%29.jpg/320px-Alma_Vii_-_Biserica_evanghelic%C4%83_fortificat%C4%83_%28vedere_disnpre_nordvest%29.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Biserica fortificată din Cristian",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "Biserica Evanghelica din Cristian a fost ridicata in a doua jumatate a secolului al XIII-lea, ca o basilica romanica cu trei nave.",
+        "Intre anii 1480-1495, aceasta bazilica romanica a fost transformata de mesterul Andreas Lapicida intr-o biserica-sala, cu trei nave si trei altare, cel al colateralei nordice fiind transformat ulterior in sacristie.",
+        "In scopuri de aparare, cele patru arcade ale turnului de vest au fost zidite, turnul fiind supra-inaltat cu inca doua etaje. In anul 1805 este supra-inaltat cu inca o data si inzestrat cu patru turnuri mici.",
+        "La sfarsitul secolului al XV-lea si inceputul celui de-al XVI-lea, cetatea bisericeasca a fost marita cu un zid dublu de incinta. Dintre cele cinci turnuri cladite s-au pastrat numai patru. Al cincilea, de deasupra vechii intrari in cetate a fost daramat de apele Cibinului.",
+        "La anul 1580 se cladeste intre incinta interioara si cea exterioara un turn pentagonal cu o galerie de aparare pe console. Altarul cu rastignirea, ca tablou principal, dateaza din anul 1719 si este un document reprezentativ al artei baroce din tara.",
+        "Sursa: https://www.crestinortodox.ro"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/CristianSB_%2834%29.jpg/320px-CristianSB_%2834%29.jpg",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/CristianSB_%2834%29.jpg/320px-CristianSB_%2834%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/CristianSB_%2840%29.jpg/186px-CristianSB_%2840%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/CristianSB_%2839%29.jpg/159px-CristianSB_%2839%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/CristianSB_%2826%29.jpg/320px-CristianSB_%2826%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RO_SB_Cristian_2011.36.jpg/159px-RO_SB_Cristian_2011.36.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/RO_SB_Cristian_2011.32.jpg/159px-RO_SB_Cristian_2011.32.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/RO_SB_Cristian_2011.3.jpg/320px-RO_SB_Cristian_2011.3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/RO_SB_Cristian_2011.1.jpg/320px-RO_SB_Cristian_2011.1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/RO_SB_Cristian_2011.22.jpg/320px-RO_SB_Cristian_2011.22.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/RO_SB_Cristian_2011.45.jpg/159px-RO_SB_Cristian_2011.45.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/CristianSB_%2849%29.jpg/159px-CristianSB_%2849%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RO_SB_Cristian_2011.17.jpg/180px-RO_SB_Cristian_2011.17.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Biserica fortificată din Viscri",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "Sit din Patrimoniul Mondial UNESCO, biserica din Viscri (Deutsch Weisskirch în germană- Biserica Albă) este una dintre cele mai pitorești biserici fortificate din Transilvania. Construită în secolul al XII-lea, pentru a înlocui o veche biserică romană, construită de secui, biserica luterană a fost fortificată în secolul al XV-lea. Zidul exterior, cu o înălțime de 7 metri, a fost construit la începutul secolului al XVI-lea și a fost consolidat de-a lungul secolului al XVII-lea prin adăugarea unor clădiri fortificate, turnuri de apărare și o pasarelă pe parapet. Interiorul bisericii a păstrat tavanul cu paneluri datând din anul 1743 și mobilierul sobru.",
+        "Sursa: https://fundatia-adept.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/ViscriKirchenburg.jpg/320px-ViscriKirchenburg.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Biserica fortificată din Mesendorf",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "Biserica fortificată din Meșendorf a fost construită în secolele XIV-XV, în stil romanic. Ulterior, biserica a fost renovată în stil gotic. Boltele bisericii au fost îndepărtate din cauza riscului de prăbușire, în timpul lucrărilor de restaurare de la începutul secolului al XIX-lea, dar turnul a fost păstrat în forma lui originară. Două din cele trei turnuri de apărare ale fortificației sunt încă în picioare. O parte a zidului de apărare a fost demolat în anul 1888, pentru a permite construirea unei școli în spațiul rămas. Interiorul era dominat de o galerie de lemn cu trei laturi, decorate cu picturi în stil baroc, altarul datând din anul 1693, iar orga, care poate fi văzută astăzi, a înlocuit o alta mai veche în anul 1765.",
+        "Sursa: https://fundatia-adept.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RO_BV_Biserica_fortificata_din_Mesendorf_%28104%29.jpg/320px-RO_BV_Biserica_fortificata_din_Mesendorf_%28104%29.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Biserica fortificată din Bunesti",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "Biserica fortificată din satul Bunești (Bodendorf în germană), construită la începutul secolului al XIV-lea, a înlocuit o fostă biserică romană, aceasta încorporând elemente structurale gotice și romanice. Zidul de apărare, construit în secolul al XIV-lea a fost fortificat prin patru turnuri de apărare și are și încăperi pentru depozitarea grânelor. Interiorul impresionează prin proporțiile sale, fiind înalt și îngust, scoase în evidență de balconul pe două nivele din partea nordică, construit între anii 1680 și 1775. Picturile murale stau ascunse în spatele altarului aurit în stil gotic, construit din lemn.",
+        "Sursa: https://fundatia-adept.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RO_BV_Biserica_evanghelica_din_Bunesti_%2852%29.jpg/320px-RO_BV_Biserica_evanghelica_din_Bunesti_%2852%29.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Biserica fortificată din Biertan",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "Una dintre cele mai mari și cunoscute biserici fortificate din Transilvania este cea din satul Biertan (Birthalm în germană), fiind inclusă pe lista Patrimoniului Mondial UNESCO. Păstrată aproape în întregime, biserica fortificată, construită în stil gotic târziu, în secolul al XVI-lea, înlocuiește de fapt o biserică romană mai veche, datând din secolul al XIV-lea. În timpul Evului Mediu, între anii 1572 și 1867, a fost cetate de scaun a episcopului Bisericii Evaghelice. Ușa sacristiei, tot în stil gotic târziu, bogat decorată cu incrustații, stă mărturie a unei măestrii deosebite. Biserica fortificată găzduiește picturi, sculpturi și mobile, realizate în stil gotic târziu.",
+        "La Biertan, turiștii află legenda temniței căsniciei. Se spune că în ‘„temnița căsniciei” cuplurile certate erau închise de către preot până când cei doi se împăcau. ”Temnița căsniciei” ar fi fost motivul pentru care în zonă nu au fost înregistrate divorțuri timp de câteva sute de ani.",
+        "Sursa: https://fundatia-adept.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kirchenburg_Birth%C3%A4lm.jpg/316px-Kirchenburg_Birth%C3%A4lm.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Biserica Neagra",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "Biserica Neagră, unul dintre simbolurile oraşului Braşov, este biserica parohială a Bisericii Evanghelice C.A. din România. Numele actual l-a primit după ce, în 1689, incendiul care a cuprins tot oraşul a tranformat-o într-o ruină. Iniţial ea purtase hramul Sfintei Maria. După Reformă a fost cunoscută ca ”Biserica Mare”, însă denumirea populară de după incendiu,„Biserica Neagră“, a fost acceptată oficial în secolul al XIX-lea.",
+        "Biserica Neagră este cea mai mare constucţie sacrală din România, cea mai mare biserică-hală la răsărit de Viena şi unul dintre cele mai mari lăcaşe de cult medievale de la domul Sf. Ştefan din Viena pînă la Hagia Sophia din Constantinopol.",
+        "Orga Buchholz, construită în perioada romantismului timpuriu, este cea mai mare orgă mecanică din România. Sunetul ei atrage în fiecare an organişti atât din ţară cât şi din străinătate, care îşi doresc să concerteze aici. La data construirii ei, se număra printre cele mai mari orgi din Europa.",
+        "Cu excepţia Turciei, Biserica Neagră posedă cea mai mare colecţie de covoare orientale din Europa, datând din secolele XV-XVI. În turnul Bisericii Negre se află cel mai mare clopot mobil din România, cu o greutate de cca. 6.000 kg.",
+        "În interior, vizitatorul poate descoperi nenumărate obiecte de artă: critselniţa (1472), pictura murală a Sf. Maria (1476), stranele din secolele XVIII-XIX care atestă activitatea intensă a breslelelor braşovene, altarul neogotic (1866) alături de multe alte piese din aur şi pietre funerare ale personalităţilor braşovene. În partea din spate a bisercii se află două expoziţii deschise permanent, care povestesc despre istoria Bisericii Negre şi despre viaţa reformatorului Johannes Honterus.",
+        "Până de curând tezaurul de parament al locaşului a fost în mare măsură trecut cu vederea, până când, în 2002, specialiştii i-au descoperit valoarea. Cuprinzând piese vestimentare din perioada Evului Mediu, el nu este cu nimic mai prejos decât marile colecţii din Danzig, Halberstadt, Brandenburg şi Stralsund, dar în prezent nu este disponibil publicului. În anii următori tezaurul va fi însă restaurat de către specialişti.",
+        "Sursa: https://www.honterusgemeinde.ro"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Brasov_Biserica_Neagra.jpg/320px-Brasov_Biserica_Neagra.jpg",
+      "image2": "./images/bn.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Biserica din deal, Sighisoara",
+      "location": "Mures",
+      "type": "",
+      "description": [
+        "Biserica din deal din Sighișoara, monument UNESCO, este o biserică evanghelică care a fost construită în mai multe etape între 1345-1525. Închinată Sfântului Nicolae, ea se află în vârful așa-numitului „Deal al Școlii” (în germană Schulberg).",
+        "Considerată cel mai valoros monument arhitectonic din oraș, ea este a patra biserică gotică ca mărime din Transilvania și înglobează o capelă romanică și un donjon patrulater. Are un turn-clopotniță de 42 m înălțime care face corp străin ce restul clădirii, și care se pleacă puțin spre sud. Are singura criptă cunoscută în Transilvania aflată dedesubtul corului și conține morminte din secolele al XVI-XVIII.",
+        "Se crede că biserica a fost construită pe locul unei cetățui existente înaintea secolului al XIII-lea, unde la sfârșitul secolului al XIII-lea a fost construit un turn.",
+        "Prima atestare scrisă a bisericii este din 1345, într-un document al regelui Ludovic I al Ungariei în care scrie că sighișorenii îi sunt credincioși și că clădesc o biserică închinată lui Sfântul Nicolae.",
+        "Sursa: https://ro.wikipedia.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Biserica_din_deal%2C_Sighi%C5%9Foara.jpg/320px-Biserica_din_deal%2C_Sighi%C5%9Foara.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Biserica fortificată din Harman",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "Bazilica romanică cu trei nave, deja înconjurată de un zid de apărare, primeşte în anul 1290 un turn clopotniţă în partea de vest. În sec. al XV-lea, atât turnul cât şi nava sunt adaptate stilului gotic şi se construieşte un al doilea zid de apărare. Zidul interior este înălţat până la 12 m şi întărit cu 7 turnuri defensive şi zwinger. Un al treilea zid, care astăzi nu se mai păstrează, înconjura şanţul cu apă astupat în 1814. Pe partea interioară a primului zid de fortificaţie, parţial conservat, a fost construit un drum de strajă. O particularitate deosebită o reprezintă grânarele şi locuinţele adosate bisericii în partea de S. Turnul de vest, cel mai înalt din Ţara Bârsei, a fost prevăzut cu un vârf nou în anul 1794. Mobilierul interior datează preponderent din sec al XVIII-lea. În turnul de apărare de est se află o capelă datând din perioada pre-reformă, decorată cu fresce înfăţişând printre altele Judecata de Apoi şi Pedepsirea Păcătoşilor. Picturile murale necesită lucrări de restaurare.",
+        "Cum arăta traiul de zi cu zi în Evul Mediu, într-o biserică fortificată aflată sub asediu? În Hărman, datorită numeroaselor elemente restaurate încă se mai poate forma o impresie destul de fidelă asupra acelor timpuri. Cetatea a fost asediată şi atacată în repetate rânduri, mai ales în sec. XVI – XVII, dar nu a fost niciodată cucerită. În ianuarie 1612 sătenii au reuşit chiar să ţină piept puternicei armate de 7.000 de oameni a prinţului ungar Bathori.La acea vreme ansamblul era apărat de trei ziduri de incintă, un şanţ cu apă şi multe turnuri defensive. La interiorul celui de-al treilea zid, pe toată lungimea acestuia, erau construite spaţii de depozitare. Apa provenea din fântâni aflate în fortificaţie. Alveolele de locuit erau parte integrală a bisericii fortificate şi ofereau adăpost în caz de atac primarului, preotului şi altor reprezentanţi de seamă ai comunităţii.Puternicul zid interior, turnurile de apărare, camerele de locuit şi cele de depozitare au înfruntat atacurile şi curgerea timpului şi pot fi văzute şi astăzi la Hărman."
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/HonigbergKirchenburg1.jpg/320px-HonigbergKirchenburg1.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Biserica fortificată din Codlea",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "Cetatea bisericească din Codlea este dominată de turnul clopotniței, care în urma completărilor din diferitele etape de construcție a ajuns să aibă ziduri de 5m grosime. Biserica a fost ridicată în sec. al XIII-lea, iar în sec. al XV-lea a fost transformată în biserică sală gotică. Primele invazii otomane i-au convins pe localnici că au nevoie de o bună apărare. Drept urmare ansamblul a fost înconjurat cu un zid de incintă înalt de peste 8m și gros de 2m, prevăzut cu goluri de tragere și guri de aruncare. La interiorul acestuia se construiesc cămări de provizii, astfel pe lângă vieţile oamenilor fiind protejate și bunurile lor.",
+        "Interiorul bisericii este dominat de tavanul casetat pictat, format din 252 de panouri și realizat la început de sec. XVIII. Nu mai puțin impresionantă este orga din 1783, opera maestrului Prause din Silezia, unul dintre cele mai valoroase instrumente din Transilvania, de a cărui cromatică s-a ocupat pictorul Oelhahn.",
+        "De pe noua promenadă frumos amenajată în Codlea, vizitatorul poate admira biserica fortificată, având ocazia de a visa la istoria seculară a acesteia. Poate și să-și închipuie cum arăta aceast tablou atât de pitoresc acum 400 de ani, când principele Gabriel Báthory asedia cetatea. El l-a promis locuitorilor și soldaților brașoveni că le va cruța viața și bunurile, dacă vor capitula de bună voie. Însă nu s-a ținut de cuvânt. Soldații brașoveni au fost uciși cu cruzime, iar oamenii principelui au ocupat fortificația. Un codlean, Thomas Göbel, a încercat să treacă de gărzi purtând două ulcioare cu vin: a fost oprit și deposedat de băutură. Bărbatul a plecat mânios, doar ca să se întoarcă în scurt timp, părând de data aceasta că se furișează. Din nou a fost prins și vinul i-a fost confiscat. Ceea ce însă nu știau gărzile, era că bărbatul strecurase un somnifer în băutură. Astfel cetatea a fost recucerită în scurt timp, Göbel a fost numit erou și ca răsplată pentru fapta sa isteață a fost absolvit de plata dărilor pentru tot restul vieții.",
+        " Sursa: https://kirchenburgen.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Zeiden_Orthodoxe_Kirche1.jpg/320px-Zeiden_Orthodoxe_Kirche1.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Biserica fortificată din Malancrav",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "Bazilica romanică cu trei nave, turn de vest şi cor poligonal a fost ridicată în sec. al XIV-lea şi a avut până la Reformă hramul Sfintei Maria. Din sistemele defensive ale bisericii, realizate în sec. XV-XVI se mai păstrează doar catul de apărare peste turn şi ruine ale zidului de incintă, caturile de apărare de peste cor şi navă fiind demolate în urma incendiului din sec. al XIX-lea. Atipic pentru acest tip de construcţii, biserica se păstrează şi azi netencuită, urmare a restaurărilor din 1913, care au fost realizate conform tradiţiei de sec. al XIX-lea. Pe lângă frescele valoroase ce acoperă o suprafaţă însemnată, interiorul adăposteşte şi numeroase sculpturi impresionante, precum menourile şi mulurile ferestrelor, portalul de vest şi alte detalii de plastică arhitecturală. Altarul triptic (cu panou central şi două panouri laterale mobile), unul dintre cele mai vechi altare gotice cu Maica Domnului figură centrală şi strana în stil gotic târziu, sculptată în atelierul lui Johann Reychmut completează mobilierul desăvîrşit al bisericii.",
+        "Nu numai biserica fortificată din Mălâncrav este unică, dar satul însuşi are o istorie neobişnuită pentru Transilvania. Dar să începem cu începutul: biserica adăposteşte cea mai mare frescă din Transilvania. Datând din sec. al XIV-lea, frescele din Mălâncrav nu au fost distruse în timpul Reformei aşa cum s-a întâmplat cu multe altele şi au rezistat până în zilele noastre. Imaginile uimitoare reprezintă aşa-numita “biblie a săracilor” şi povestesc istoria mântuirii. Spre deosebire de majoritatea celorlalte sate săseşti, Mălâncrav nu a aparţinut pământului liber regal, ci locuitorii satului au fost şerbii familiilor nobile Apafi şi Bethlen. Şerbia a fost abolită abia în sec. al XIX-lea. Astăzi vizitatorii pot experimenta viaţa idilică rurală printre curţile ţărăneşti şi dealurile împădurite ale Mălâncravului. Prinţul Charles vine aici adeseori pentru a se bucura de liniştea locului.",
+        "Sursa: https://kirchenburgen.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/M%C4%83l%C3%A2ncrav_church_exterior.jpg/320px-M%C4%83l%C3%A2ncrav_church_exterior.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Biserica fortificată din Sf. Gheorghe",
+      "location": "Covasna",
+      "type": "",
+      "description": [
+        "Singura construcție medievală păstrată a orașului este biserica fortificată, care se ridică la est de Piața Veche a orașului – azi Piața Calvin -, pe marginea unei terasa mai înalte. Pe la mijlocul secolului al XIX-lea enoriașii bisericii catolice în urma reformei au devenit luterani. În perioada 1570-1622, comunitatea a urmat religia unitariană, iar din 1622 devină calvină.",
+        "Despre refacerea clădirii din secolul al XVII-lea se știu foarte puține. Pe peretele nordic, la înălțime accesibilă din tribuna vestică se pot citi mai multe fragmente de inscripții de tip graffiti, dintre care cel mai bine păstrat este anul 1687. De asemenea și pe peretele estic al tribunei orgii se găsesc texte fragmentare neidentificabile.",
+        "În decursul seculelor următoare clădirea bisericii a suferit din cauza mai multor cutremure. Cutremurele din 1728 și 1738 au avut consecință grave, distrugerile fiind reparate fără afectarea stilului bisericii. Incinta fortificată din mijloc, care a suferit mai ales în 1738, a fost demolată în 1786 de către conducerea bisericii. Materialul de construcție rezultat a fost utilizat la construirea școlii germane pe vremea lui Iosif al II-lea, în care funcționează astăzi casa cantorului.",
+        "În ciuda întâmplărilor devastatoare, zidul de incintă și turnurile, biserica și clădirile din incintă, mormintele întreținute cu pioșenie și cimitirul reformat de pe versantul dealului formează împreună cel mai valoros și mai pitoresc ansamblu de edificii istorice ale orașului.",
+        "Sursa: https://virtualisszekelyfold.ro"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sepsiszentgyorgyi_reformatus_vartemplom.jpg/320px-Sepsiszentgyorgyi_reformatus_vartemplom.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Biserica fortificată din Carta",
+      "location": "Harghita - neactualizat",
+      "type": "",
+      "description": [
+        "Construirea bisericii care există și astăzi s-a efectuat în secolul al XV-lea. La această perioadă trimite și piatra pragului găsit în 1796 pe care apare scris anul 1444 dar care a fost zidită în zidurile bisericii, la marea tristețe a lumii cercetării științifice. Biserica este înconjurată de un zid de cetate de o înălțime de 8-10 metri, dotat cu ambrazuri și bastion, principalul motiv al construcției acestui zid fiind funcția de apărare, protejare. În timpul atacurilor turcești, biserica a servit ca refugiu pentru locuitorii satelor. În interiorul zidului de cetate s-au creat 14 picturi care ilustrează stațiile drumului crucii. Picturile sunt protejate împotriva deteriorării prin uși de lemn. Promontoriul pe care biserica a fost construită este ultima prelungire a Munțiilor Harghitei.",
+        "În ciuda răspândirii rapide a reformei, regiunea Ciucului a rămas în continuare centrul catolicismului în Ardeal. A început un proces care urmărea întărirea credincioasă a enoriașilor, restabilirea sistemului tradițional al moralei creștine, îmbunătățirea situației financiare a bisericii și restaurarea bisericilor și a clădirilor bisericești. Inițiatorii acestui proces au fost Mártonffy György, episcopul născut la Cîrța, și Antalffi János, vicarul episcopal care, întărind normele vechi, au apărat viața în morală creștină.",
+        "Despre construcțiile inițiate la începutul secolului al XVIII-lea se vorbește pentru prima oară în 1749. Sanctuarul bisericii a rămas parțial în forma lui gotică din secolul al XV-lea. Investigațiile arheologice au pronunțat marea semnificație a grinzilor tavanului, a cheilor de boltă și a consolelor, dar mai ales a chivotului de stil gotic târziu. În timpul reconstrucțiilor ferestrele cu boltă ascuțită de odinioară au fost transformate în ferestre cu boltă circulară de stil baroc. Naosul de stil gotic s-a desfăcut, după care din piatra acestuia s-a reconstruit întregul naos cu tavan plat, două naosuri transversale, uși de stil baroc, ba chiar și arcul de triumf cu boltă ascuțită a fost transformată într-unul cu boltă circulară. Așadar, în urma reconstruirii, biserica a căpătat practic o formă de stil baroc, deși specialiștii spun că sanctuarul și ușa sacristiei au păstrat caracterul gotic.",
+        "Sursa: http://primariacirta.ro"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg/320px-Biserica_fortificat%C4%83_din_Rodbav_-_zid_de_ap%C4%83rare.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Biserica fortificată din Calnic",
+      "location": "Covasna",
+      "type": "",
+      "description": [
+        "Cetatea din Câlnic a fost ridicată în jurul anului 1270, fiind prevăzută cu donjon, zid de apărare şi înconjurată de un şanţ cu apă, accesul fiind posibil doar pe  podul ridicător. După preluarea cetăţii de către comunitatea săsească, aceasta a fost extinsă prin construirea unui al doilea zid de fortificaţie şi a unui turn în partea de sud. Pentru a face faţă asediilor au fost construite în interiorul incintei camere de provizii şi locuinţe, care însă nu s-au păstrat.",
+        "Fortăreaţa a fost dotată la sfârşitul sec. al XV-lea cu o mică biserică sală cu absidă. La mijlocul sec. al XVI-lea şanţul este umplut, iar podul este înlocuit de o casă de poartă cu hersă. În prezent ansamblul este administrat de către o fundaţie a Universităţii din Cluj.",
+        "În Câlnic se păstrează una dintre ultimele reşedinţe ale greavilor din Transilvania. Datorită valorii şi semnificaţiei sale excepţionale, cetatea este acum sit UNESCO aflat pe lista Patrimoniului Mondial.",
+        "În sec. al XIII-lea, greavul Chyl de Kelling (numele german al aşezării, provenit de la numele familiei de stăpâni) construieşte în sat un turn, pentru a-şi marca reşedinţa. Din cauza deselor atacuri otomane, turnul este fortificat cu cat de apărare şi înconjurat de un zid uriaş de apărare.",
+        "Familia greavului Chyl nu a avut niciodată relaţii prea bune cu personalităţile marcante ale aşezării. Ca urmare, în 1430 ultimul greav se mută şi vinde fortificaţia sătenilor. Aceştia folosesc ansamblul ca refugiu în caz de atac otoman şi îi construiesc sisteme defensive suplimentare, precum şi spaţii de depozitare. În 1658 atacatorii reuşesc să distrugă satul, dar cetatea rămâne necucerită.",
+        "https://kirchenburgen.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Calnic_Citadel.JPG/320px-Calnic_Citadel.JPG",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Biserica fortificată din Copsa Mare",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "Pe dealul de est, veghind satul de la înălţime, se afla iniţial o basilică gotică cu turn. În 1510, în cursul lucrărilor de fortificare, corul este demolat şi în locul lui se construieşte un alt cor mai înalt, cu închidere poligonală şi întărit de un cat de apărare din piatră. Corul astfel echipat şi mai înalt cu aproape 11 metri decât nava formează un sistem defensiv pentru apărarea bisericii dinspre partea dealului. Turnul este şi el prevăzut cu cat de apărare din lemn. În timp ce corul păstrează încă bolta stelată şi mulurile gotice datând din aceeaşi perioadă de construcţie, nava bisericii este modificată în 1795 în stil baroc. Pe partea de nord a corului se află sacrisitia pe două niveluri, datată 1519, la parterul căreia a fost amenajată o capelă. De mare valoare sunt portalul renascentist de acces în sacristie şi altarul clasicist.",
+        "Aşezarea a fost întemeiată cel mai probabil în a doua jumătate a sec. al XIII-lea. În timp ce coloniştii au ridicat încă de la începutul sec. al XIV-lea o biserică din piatră, ale cărei fundaţii, în ciuda numeroaselor reconstrucţii şi demolări se păstrează şi astăzi, casele din sat au fost construite din materiale mult mai puţin durabile. Lemnul pădurilor din jur a fost o sursă la îndemână şi la începuturi principalul material de construcţie. Crăpăturile dintre bârne erau umplute cu muşchi şi lut, iar casele erau acoperite cu paie de grâu rămase după seceriş. Ferestrele erau astupate cu membrană de animal prin care trecea o lumină palidă, care abia reuşea să mai împrăştie întunericul camerelor.",
+        "Abia în sec. XVIII-XIX construcţia caselor din zidărie de cărămidă a devenit un fapt comun. Din această perioadă datează gospodăriile săseşti tipic transilvănene, care încă mai străjuiesc disciplinat de o parte şi de alta a drumurilor din sat.",
+        "https://kirchenburgen.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Copsa_Mare_Fortified_Church.jpg/320px-Copsa_Mare_Fortified_Church.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Biserica fortificată din Seica Mare",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "Ridicată în sec. al XIII-lea ca basilică nefortificată cu trei nave și absidă, biserica este protejată începând cu sec. al XV-lea cu un zid de incintă cu turnuri de apărare. Mai târziu și biserica însăși a fost fortificată prin demolarea navei laterale de nord și înlocuirea planșeului de lemn al navei principale cu boltă cilindrică cu rețea de nervuri. În locul absidei a fost ridicat la mijlocul sec. al XVI-lea un cor cu închidere poligonală, care a fost înălțat cu două caturi de apărare. Fragmente de picturi ornamentale au rezistat până astăzi pe zidurile exterioare. În 1800 biserica a fost extinsă spre vest cu o treime, iar șase ani mai târziu a fost construit turnul clopotniță în partea de vest. Fortificațiile au fost demolate complet 100 de ani mai târziu. Pe partea de est a bisericii zidul de incintă a fost înlocuit de clădirea școlii. Bolta cilindrică a navei principale și bolta în cruce a navei laterale se păstrează și azi. Deosebit de valoroase sunt amvonul baroc și altarul din 1776.",
+        "În sec. al XVI-lea Şeica Mare era o comună renumită în Transilvania, care se bucura de privilegiul de a ţine târg. În anul 1525 regele Ungariei autorizează găzduirea bâlciului de iarnă. Acest lucru constituia un privilegiu deosebit, deoarece astfel satul se afla sub protecţia nemijlocită a regelui. Iarmarocurile erau evenimente de importanţa majoră pentru societatea rurală, atrăgând meșteșugari, negustori, cumpărători și curioși din întreaga regiune. Ce tablou pitoresc: ceramică decorată, bijuterii fabuloase aşezate pe valuri şi voaluri de mătase colorată şi numeroase bucate alese.",
+        "Mai mult, satul dispunea şi de dreptul de viaţă şi de moarte asupra locuitorilor săi. În acest sens a fost ridicat un stâlp al infamiei, un turnuleţ de 6m cu patru nişe, de care cei ce încălcau legile erau legaţi de gât cu inele de fier. Deşi stâlpul a fost ulterior dărâmat, el rămâne în istoria satului, precum susţine Rosel Potoradi, un simbol nemuritor al faptului că Şeica Mare a fost ridicată la nobilul rang de comună liberă cu drept de iarmaroc.",
+        "Sursa: https://kirchenburgen.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/SeicaMareSB_%282%29.JPG/320px-SeicaMareSB_%282%29.JPG",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Biserica fortificată din Bazna",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "Pe o culme montana, in estul localitatii, se afla biserică fortificată. Constructia anterioara, o bazilica romanica, a fost inlocuita la inceputul sec. al XV-lea cu un edificiu in stil gotic tarziu, fara turn. Concomitent, apar deasupra corului un nivel defensiv cu trei etaje si un zid de incinta oval. Turnul de poarta este in acelasi timp turn-clopotnita, iar latura nordica partineste o camara de fructe cu guri de tragere.",
+        "Pe latura de sud a cetatii bisericesti se inalta turnul de poarta si turnul-clopotnita, etajul superior poarta denumirea de Vechea Primarie. Sub turla sa cu 3 clopote medievale se afla drumul de straja pe stalpi suspendabili.",
+        "Constructia bisericii-hale fara turn incepuse deja in a doua jumatate a sec. al XIV-lea. Edificiul isi primeste forma sa actuala doua secole mai tarziu. Dotarile interioare provin in mare parte din perioada goticului tarziu si baroca. In cor se afla altarul impozant ridicat in 1791. Coloane corintice sustin edificiul si inconjoara panoul central.",
+        "Sursa: http://www.bezirkmediasch.ro"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BaznaSB_%2812%29.JPG/320px-BaznaSB_%2812%29.JPG",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Biserica fortificată din Valea Viilor",
+      "location": "Sibiu",
+      "type": "",
+      "description": [
+        "Localitatea Valea Viilor se mândrește cu una dintre cele mai frumoase biserici săsești din Transilvania. Ea a fost ridicată în secolele XV-XVI, în stil gotic, pe locul unei biserici mai mici. Nava are un plafon boltit cu o rețea complicată de nervuri, care se sprijină pe 7 perechi de stâlpi.",
+        "În interior se poate admira altarul realizat de Johann Folbarth din Sighișoara (1779), o vechea cristelniță, coroana amvonului, din anul 1746, chiar și strana preotului din 1526. Lucrările de fortificare ale bisericii au fost începute încă din secolul XV, și au fost terminate în anul 1520.",
+        "Biserica are, două intrări una în partea de sud, cealaltă în nord, înzestrate cu grătar de apărare. Zidul ce o înconjoară are o înălțime de 6-7 m, are metereze, guri de aruncare, contraforturi și mai multe turnuri, din care s-au mai păstrat doar 4. Nava a primit un etaj de apărare cu metereze.",
+        "Corul a fost întărit cu zidul masiv al turnului. Această biserică în 1999 a fost trecută pe lista monumentelor protejate de UNESCO."
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/ValeaViilorSB_%2821%29.JPG/320px-ValeaViilorSB_%2821%29.JPG",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Biserica fortificată din Saschiz",
+      "location": "Mures",
+      "type": "",
+      "description": [
+        "Pe locul unde altă dată se afla o bazilică romanică, s-a ridicat în 1493 o mare biserică fortificată în onoarea regelui Ștefan I al Ungariei. Biserica masivă, construită din piatră de carieră, în stil gotic, este de tip sală, întărită cu 22 de contraforturi. Sala este foarte lată și lungă, iar corul este închis pe trei laturi. În 1496 a fost terminat corul bisericii, iar în 1525 toate lucrările au fost terminate. Un nivel de apărare a fost construit din cărămidă deasupra sălii și a corului, în mod similar fiind ridicate deasupra bolții stelate a sacristiei încă două niveluri. Biserica are trei portaluri[3] cu ambrazuri terminate în arc frânt. Prin vestul bisericii se află două turnulețe din cărămidă prin care se face accesul în interior. Prin intermediul unor arcade late care sunt sprijinite pe retragerile contraforturilor este susținut parapetul etajului de apărare care mascheză gurile de turnare. Deasupra tuturor se ridică doi pereți de grosime mică care au rol în diminuarea pătrunderii proiectilelor aruncate din exterior. Pereții au prevăzute metereze la care se poate ajunge printr-un coridor din lemn. Înglobat în sistemul defensiv este și turnul sacristiei care se regăsește sub același acoperiș al bisericii și care se ridică deasupra etajului de apărare cu 16 metri.",
+        "Relativ recent, în secolul al XIX-lea atât bolta navei cât și bolta corului au fost modificate înlocuindu-se bolțile semicilindrice cu penetrații. Ferestrele bisericii sunt în stil gotic târziu prezentând vederii muluri[4] traforate precum și fragmente din rondele de sticlă înglobate într-o rețea de plasă din plumb. Odinioară, orga se afla deasupra altarului. În secolul al XVIII-lea, aceasta a fost relocată într-o tribună pe latura vestică, special construită.",
+        "Turnul de apărare are un aspect masiv și are prevăzute niveluri cu guri de tragere. El a fost construit la o distanță de circa 10 metri de sacristie. Ultimele caturi sunt ridicate din cărămidă, celelalte fiind din piatră. Transformarea sa în clopotniță s-a realizat o dată cu construirea turnului cu ceas din Sighișoara, în anul 1677. După puțin timp de la transformare a avut loc un incendiu care l-a distrus aproape în întregime. Trecând încă printr-un incendiu, aspectul pe care-l are astăzi se datorează refacerii sale din anul 1832. La fereastra etajului superior există o figurină numită Bogdan, care acompaniază bătăile ceasului.",
+        "Biserica evanghelică fortificată din Saschiz face parte din patrimoniul mondial UNESCO. Fortificația săsească a fost construită între secolele al XIV-lea și al XV-lea, cu ziduri înalte până la 9 m. Întreg ansamblul a fost înconjurat de un puternic zid de apărare, al cărui traseu este urmat de actuala împrejmuire a bisericii.",
+        "Sursa: https://ro.wikipedia.org"
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2007_07260607.JPG/320px-2007_07260607.JPG",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Biserica fortificată din Darjiu",
+      "location": "Harghita",
+      "type": "",
+      "description": [
+        "Biserica unitariană fortificată din Dârjiu este un monument istoric și de arhitectură din sec. XIII-XIV, inclus în anul 1999 pe lista UNESCO a patrimoniului cultural mondial. Biserica reprezinta una dintre cele mai importante biserici fortificate secuiești, ea fiind prezentă în toate referințele unor astfel de monumente din Transilvania datorită picturilor murale (în mare parte distruse) din interiorul bisericii dar și arhitecturii fortificațiilor ce o înconjoară.",
+        "Biserica are la bază o veche bazilică romană ale căror elemente datează din secolul al XIII-lea. Ridicarea edificiului actual a început în secolul al XIV-lea și terminat în secolul al XV-lea, fortificațiile fiind înălțate în secolul al XVI-lea, având în componența lor cinci bastioane, turnuri de clopote și ziduri de apărare din piatră.",
+        "Biserica a dobândit forma actuală în secolul al XV-lea, cu ocazia unei extinderi în stil gotic. Deosebit de valoroase sunt frescele care reprezintă legenda sfântului Ladislau în care apare și imaginea unui războinic migrator cuman. Legenda se referă la bătălia de la Chiraleș din 1064. Aceste picturi murale au fost acoperite cu ocazia Reformei și au fost redescoperite în secolul al XIX-lea.",
+        "Interiorul fortificației are o suprafață de 1852 metri pătrați, biserica aflându-se în mijlocul ei. Biserica prezintă o amprentă dreptunghiulară de 7,25 metri pe 28 metri, cu o înălțime medie de 15 metri, punctul cel mai înalt având 20 de metri. Conform unei inscripții existente pe o țiglă a acoperișului fortificației, cea mai veche renovare a lui a fost făcută în anul 1760. Zidul de protecției are circa 5 metri înățime. Fortificația a fost terminată în anul 1530, ea având înglobată în structură spații de depozitare folosite de locuitorii satului, cum ar fi camere de provizii, de cereale și renumita slănină care are rezervat un turn din fortificație.",
+        "Turnul bisericii, care se aflã la sud de biserica propriu–zisă este cea mai veche parte componentã a sistemului de fortificatii. Zidul bisericii slujea și ca apărare împotriva atacurilor otomane, însă nu este la fel de înalt ca cel al bisericilor fortificate săsești, deoarece satul în sine este amplasat la o înãltime destul de ridicatã. Zidul are douã porti, astfel ca turcii intrati pe prima poartã si rãmasi blocati în incinta cetãtii sã poata fi arsi cu smoalã fierbinte. Sãtenii îsi tin si acum cerealele în hambarele aflate în cetate, iar slãnina si suncile se pãstreazã în bastioanele cetãtii. Cerealele se pot lua acasã în fiecare dimineatã, iar slãnina doar o singurã datã pe sãptâmãna."
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Derzs1.jpg/320px-Derzs1.jpg",
+      "images": [
+        ""
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Biserica fortificată din Ghimbav",
+      "location": "Brasov",
+      "type": "",
+      "description": [
+        "În aşezarea fondată deja din sec. al XIII-lea de către Cavalerii Teutoni se găseşte din sec. al XV-lea o bazilică gotică, rezultată din reconstrucţia unei clădiri romanice anterioare. În etapa de fortificare aceasta a fost înconjurată cu zid de apărare cu cinci turnuri defensive, cărora puţin mai târziu li s-a adăugat un zwinger şi un şanţ cu apă, iar turnul bisericii a fost prevăzut cu guri de tragere. După distrugerile din 1658 biserica a fost reconstruită în forma ei iniţială. Totuşi bolta navei datează doar din 1775. Din perioada gotică de construcţie se păstrează compoziţia planimetrică, plastica ferestrelor, bolta nervurată în cruce gotică a corului și calota a vela a absidei. Din perioada de reconstrucţie datează acoperişul în formă de piramidă retezată al turnului cu nivel pentru clopote.",
+        "Amenajarea interioară este de sec. XVIII-XIX. Unică în Transilvania este pictura ornamental-florală din 1902, care acoperă cu culoare zidurile şi bolţile spaţiului interior gotic. Ghimbavul se află la câţiva kilometri distanţă spre vest de Braşov, în mijlocul Ţării Bârsei.",
+        "Din cauza poziţiei sale geografice aproape de graniţa naturală a arcului carpatic, regiunea a fost des ameninţată de atacuri armate în sec. XV şi XVII. Pentru a face faţă pericolelor, biserica a fost reconstruită şi pregătită pentru apărare, la fel ca multe altele din zonă. Pe lîngă fortificarea propriei cetăţi, locuitorii Ghimbavului trebuiau să participe şi la construirea sistemelor defensive ale Braşovului.",
+        "Între 1599 şi 1611 aşezarea a fost arsă din temelii de două ori şi de alte două ori a fost prădată. În 1612 cetatea bisericească a trebuit predată fără luptă. Iar în 1658 tătarii din Crimeea au asediat din nou fortificaţia. După negocieri, celor peste 900 de săteni din cetate le-a fost promisă trecerea liberă. Însă promisiunea nu a fost ţinută, iar apărătorii au fost ucişi sau deportaţi la porţile Braşovului. Acolo, dintre cei oferiţi spre răscumpărare, 155 au fost eliberaţi din captivitate de către locuitorii braşoveni."
+      ],
+      "image1": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Biserica_evanghelica_fortificata_din_Ghimbav_%281%29.jpg/320px-Biserica_evanghelica_fortificata_din_Ghimbav_%281%29.jpg",
+      "images": [
+        ""
+      ]
+    }
+  ]
 }

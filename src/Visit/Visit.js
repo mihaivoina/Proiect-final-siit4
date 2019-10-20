@@ -24,22 +24,22 @@ class Visit extends Component {
         this.setState({
             churches: res.data
         });
-        // console.log("render de churchNameList si image1List:", churchNameList, image1List );
     }
     
     render() {
+
         return(
             <React.Fragment>
                 <h2>Visit Transylvania's fortified churches</h2>
                 <div className="container">
                     <div className="row" style={{ background: 'linear-gradient(to left, rgba(212,172,106,1) 0%, rgba(255,223,170,1) 100%)', paddingBottom: '30px', marginBottom: '20px' , borderRadius: '5px' }}>
-                    {this.state.churches.map( church =><VisitCards key={ church.id } churchNameList={church.name} image1List={church.image1} location={church.location} />)}
+                        {this.state.churches.map( church =><VisitCards key={ church.id } churchId={church.id} churchNameList={church.name} image1List={church.image1} location={church.location} />)}
                     </div>
                 </div>
                 
             </React.Fragment>
                 
-        );
+                );
     }
 
 }

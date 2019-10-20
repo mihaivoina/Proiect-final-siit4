@@ -1,27 +1,40 @@
 import React, { Component } from 'react';
+
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from'./iac.jpg';
-import Login from '../Login/Login';
-
 import NavLink from 'react-bootstrap/NavLink';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Link } from 'react-router-dom';
+
+import logo from'./iac.jpg';
+import {Login, SessionContext} from '../Login';
+
 
 
 class  NavigationBar extends Component {
+    static contextType = SessionContext;
     state = {
         showModal: false,
     };
 
-    handleShowModal = () => this.setState({showModal: true});
-    handleCloseModal = () => this.setState({showModal: false});
-    handleLogout = () => {}
+    handleShowModal = () => {
+        this.setState({showModal: true});
+    };
 
+    focusInput = () => document.querySelector('#username').focus();
+    handleCloseModal = () => this.setState({showModal: false});
+    handleLogout = () => {
+        this.context.setUser(null);
+        localStorage.removeItem('Visit-Transilvania-user');
+    }
+    // onEntered={this.focusInput}
+    
     render() {
+        console.log("User: ", this.context.user);
+        
         return(
             <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -47,39 +60,31 @@ class  NavigationBar extends Component {
                         <Nav.Link as={Link} to="/about">About Us</Nav.Link>
                     </Nav>
                     <Nav>
-                        { (this.context.user) ? 
-                            <>
-                                Mihai { /* this.context.user.name */ }
+                        { (this.context.user)  ? 
+                                <>
+                                <Navbar.Text>{  this.context.user.firstName  }</Navbar.Text>
                                 <NavLink onClick={this.handleLogout}>Logout</NavLink>
-                            </>
+                                </>
                             : 
-                            <NavLink href="#" onClick={this.handleShowModal}>Login</NavLink>
+                            <NavLink onClick={this.handleShowModal}>Login</NavLink>
                         }
-
                     </Nav>
-                    
                 </Navbar.Collapse>
             </Navbar>
-            <Modal show={this.state.showModal} onHide={this.handleCloseModal}>
+            {/* {onEntered={this.focusInput}} */}
+            <Modal show={this.state.showModal}  onHide={this.handleCloseModal}>
                 <Modal.Header closeButton>
                 <Modal.Title>Login</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Login save={false} />
+                    <Login save={false} handleModalSubmit={this.handleCloseModal} />
                 </Modal.Body>
-                <Modal.Footer>
-                <Button variant="secondary" onClick={this.handleCloseModal}>
-                    Close
-                </Button>
-                <Button variant="primary" onClick={this.handleCloseModal}>
-                    Save Changes
-                </Button>
-                </Modal.Footer>
             </Modal>
+            Logged as: { this.context.user ? this.context.user.firstName : '' }
           </>
         );
     }
-    
 }
 
 export default NavigationBar;
+   

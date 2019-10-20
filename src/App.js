@@ -1,41 +1,71 @@
 import React from 'react';
-// import logo from './logo.svg';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Route } from 'react-router';
+
 import Visit from './Visit/Visit';
-import VisitDetails from './Visit/VisitDetails';
+import VisitDetail from './Visit/VisitDetail';
 import FortifiedChurches from './FortifiedChurches/FortifiedChurches';
 import FortressChurches from './FortressChurches/FortressChurches';
 import FortifiedWalls from './FortifiedWalls/FortifiedWalls';
 import TipsTrips from './TipsTrips/TipsTrips';
 import WishVisit from './WishVisit/WishVisit';
 import About from './About/About';
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavigationBar from './NavigationBar/NavigationBar';
+import Register from './Login/Register';
+
+import { SessionContext } from './Login';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
 
-function App() {
-  return (
-  //   <div className="App">
-  //     <header className="App-header"></header>
-  //     <p>Afisare</p>
-  //   </div>
+class App extends React.Component {
+  state = {
+    user: null
+  };
 
-  <Router>
-      <NavigationBar />
-      <Route exact path="/" component={ () => <h2>Transylvania's Treasures - The Fortified Churches</h2> } />
-      <Route  exact path="/visit" component={ Visit } />
-      <Route  path="/visit/details" component={ VisitDetails } />
-      <Route  path="/fortified_churches" component={ FortifiedChurches } />
-      <Route  path="/churches_with_fortified_enclosure_walls" component={ FortifiedWalls } />
-      <Route  path="/fortress_Churches" component={ FortressChurches } />
-      <Route  path="/tips_for_trips" component={ TipsTrips } />
-      <Route  path="/wish_to_visit" component={ WishVisit } />
-      <Route  path="/about" component={ About } />
+  saveUser = (user) => {
+    this.setState({user});
+    localStorage.setItem('Visit-Transilvania-user', JSON.stringify(user));
+  }
 
-    </Router>
-  );
+  componentDidMount() {
+    const existingLogin = localStorage.getItem('Visit-Transilvania-user');
+    if(existingLogin) {
+
+      console.log(existingLogin);
+      
+      this.setState({ user: JSON.parse(existingLogin)})
+    }
+  }
+
+  render() {
+
+    return (
+    //   <div className="App">
+    //     <header className="App-header"></header>
+    //     <p>Afisare</p>
+    //   </div>
+  
+    <Router>
+      <SessionContext.Provider value={ {user: this.state.user, setUser: this.saveUser}}>
+        <NavigationBar />
+        <Route exact path="/" component={ () => <h2>Transylvania's Treasures - The Fortified Churches</h2> } />
+        <Route  exact path="/visit" component={ Visit } />
+        <Route  path="/visit/details/:churchId" component={ VisitDetail } />
+        <Route  path="/fortified_churches" component={ FortifiedChurches } />
+        <Route  path="/churches_with_fortified_enclosure_walls" component={ FortifiedWalls } />
+        <Route  path="/fortress_Churches" component={ FortressChurches } />
+        <Route  path="/tips_for_trips" component={ TipsTrips } />
+        <Route  path="/wish_to_visit" component={ WishVisit } />
+        <Route  path="/about" component={ About } />
+        <Route path="/register" component={ Register } />
+      </SessionContext.Provider>
+  
+      </Router>
+    );
+  }
 }
 
 export default App;
