@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route } from 'react-router';
 
+import HomePage from './HomePage/HomePage';
 import Visit from './Visit/Visit';
 import VisitDetail from './Visit/VisitDetail';
 import FortifiedChurches from './FortifiedChurches/FortifiedChurches';
@@ -34,7 +35,7 @@ class App extends React.Component {
     const existingLogin = localStorage.getItem('Visit-Transilvania-user');
     if(existingLogin) {
 
-      console.log(existingLogin);
+      // console.log(existingLogin);
       
       this.setState({ user: JSON.parse(existingLogin)})
     }
@@ -51,7 +52,7 @@ class App extends React.Component {
     <Router>
       <SessionContext.Provider value={ {user: this.state.user, setUser: this.saveUser}}>
         <NavigationBar />
-        <Route exact path="/" component={ () => <h2>Transylvania's Treasures - The Fortified Churches</h2> } />
+        <Route exact path="/" component={ HomePage } />
         <Route  exact path="/visit" component={ Visit } />
         <Route  path="/visit/details/:churchId" component={ VisitDetail } />
         <Route  path="/fortified_churches" component={ FortifiedChurches } />

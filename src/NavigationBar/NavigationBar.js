@@ -33,7 +33,7 @@ class  NavigationBar extends Component {
     // onEntered={this.focusInput}
     
     render() {
-        console.log("User: ", this.context.user);
+        // console.log("User: ", this.context.user);
         
         return(
             <>
@@ -72,7 +72,7 @@ class  NavigationBar extends Component {
                 </Navbar.Collapse>
             </Navbar>
             {/* {onEntered={this.focusInput}} */}
-            <Modal show={this.state.showModal}  onHide={this.handleCloseModal}>
+            <Modal show={this.state.showModal} onEntered={this.focusInput} onHide={this.handleCloseModal}>
                 <Modal.Header closeButton>
                 <Modal.Title>Login</Modal.Title>
                 </Modal.Header>
@@ -80,7 +80,7 @@ class  NavigationBar extends Component {
                     <Login save={false} handleModalSubmit={this.handleCloseModal} />
                 </Modal.Body>
             </Modal>
-            Logged as: { this.context.user ? this.context.user.firstName : '' }
+            {/* Logged as: { this.context.user ? this.context.user.firstName : '' } */}
           </>
         );
     }

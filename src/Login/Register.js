@@ -53,7 +53,7 @@ class Register extends Component {
                 const res = await Axios.post('http://localhost:3004/users', data);
             
                 if(res.status === 201) {
-                    this.context.setUser(this.state.username);
+                    this.context.setUser(this.state);
                     
                     this.setState({
                     redirect: true
@@ -91,6 +91,13 @@ class Register extends Component {
         newState[e.currentTarget.id] = e.currentTarget.value;
 
         this.setState(newState);
+
+        this.setState({
+            errorFields: [],
+            registerError: '',
+            existUser: false,
+            errorExistingUser: ''
+              });
     }
     
     render() {
