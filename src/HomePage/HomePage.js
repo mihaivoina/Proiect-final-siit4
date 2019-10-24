@@ -10,7 +10,7 @@ class HomePage extends Component {
         return(
             <>
             <div className="container">
-                <h2>Transylvania's Treasures - The Fortified Churches</h2>
+                <h2>Comorile Transilvaniei - Bisericile fortificate</h2>
                 <Carousel>
                     <Carousel.Item>
                         <img

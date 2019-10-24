@@ -43,34 +43,34 @@
   ],
   "wishList": [
     {
+      "iduser": 4,
+      "idchurch": 1,
+      "id": 2
+    },
+    {
+      "iduser": 3,
+      "idchurch": 16,
+      "id": 12
+    },
+    {
       "iduser": 3,
       "idchurch": 1,
-      "id": 1
+      "id": 13
     },
     {
       "iduser": 3,
       "idchurch": 2,
-      "id": 2
-    },
-    {
-      "iduser": 4,
-      "idchurch": 1,
-      "id": 4
+      "id": 14
     },
     {
       "iduser": 3,
       "idchurch": 3,
-      "id": 5
+      "id": 15
     },
     {
       "iduser": 3,
-      "idchurch": 10,
-      "id": 6
-    },
-    {
-      "iduser": 4,
-      "idchurch": 4,
-      "id": 7
+      "idchurch": 8,
+      "id": 16
     }
   ],
   "churches": [

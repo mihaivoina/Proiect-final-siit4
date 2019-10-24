@@ -30,7 +30,6 @@ class  NavigationBar extends Component {
         this.context.setUser(null);
         localStorage.removeItem('Visit-Transilvania-user');
     }
-    // onEntered={this.focusInput}
     
     render() {
         // console.log("User: ", this.context.user);
