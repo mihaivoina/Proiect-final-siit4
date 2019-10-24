@@ -48,13 +48,13 @@ class  NavigationBar extends Component {
                     <Nav className="mr-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/visit">Visit</Nav.Link>
-                        <NavDropdown title="Attractions" id="collasible-nav-dropdown">
+                        {/* <NavDropdown title="Attractions" id="collasible-nav-dropdown">
                             <NavDropdown.Item as={Link} to="/fortified_churches">Fortified Churches</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/churches_with_fortified_enclosure_walls">Churches with fortified enclosure walls</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/fortress_Churches">Fortress-Churches</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/tips_for_trips">Tips for trips</NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                         <Nav.Link as={Link} to="/wish_to_visit">Wish to visit</Nav.Link>
                         <Nav.Link as={Link} to="/about">About Us</Nav.Link>
                     </Nav>

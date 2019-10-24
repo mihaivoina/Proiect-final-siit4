@@ -49,28 +49,18 @@
     },
     {
       "iduser": 3,
-      "idchurch": 16,
-      "id": 12
-    },
-    {
-      "iduser": 3,
-      "idchurch": 1,
-      "id": 13
-    },
-    {
-      "iduser": 3,
-      "idchurch": 2,
-      "id": 14
-    },
-    {
-      "iduser": 3,
       "idchurch": 3,
-      "id": 15
+      "id": 19
     },
     {
       "iduser": 3,
-      "idchurch": 8,
-      "id": 16
+      "idchurch": 4,
+      "id": 20
+    },
+    {
+      "iduser": 3,
+      "idchurch": 5,
+      "id": 21
     }
   ],
   "churches": [
