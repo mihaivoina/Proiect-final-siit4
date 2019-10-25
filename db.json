@@ -39,6 +39,14 @@
       "lastName": "Voina",
       "email": "elena@test.com",
       "password": "parola"
+    },
+    {
+      "id": 6,
+      "username": "test",
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@test",
+      "password": "parola"
     }
   ],
   "wishList": [
@@ -48,19 +56,29 @@
       "id": 2
     },
     {
+      "iduser": 4,
+      "idchurch": 7,
+      "id": 22
+    },
+    {
+      "iduser": 3,
+      "idchurch": 1,
+      "id": 23
+    },
+    {
       "iduser": 3,
       "idchurch": 3,
-      "id": 19
+      "id": 24
     },
     {
       "iduser": 3,
       "idchurch": 4,
-      "id": 20
+      "id": 25
     },
     {
       "iduser": 3,
-      "idchurch": 5,
-      "id": 21
+      "idchurch": 2,
+      "id": 26
     }
   ],
   "churches": [

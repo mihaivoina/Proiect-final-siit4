@@ -51,7 +51,7 @@ class VisitDetail extends Component {
         
         let checkW = reswish.data;
         for(let i=0; i<checkW.length; i++) {
-            if(checkW[i].iduser === this.context.user.id && checkW[i].idchurch === this.state.church.id) {
+            if(this.context.user && checkW[i].iduser === this.context.user.id && checkW[i].idchurch === this.state.church.id) {
 
                 const newListed = 'Adaugat in Wish to Visit.';
 

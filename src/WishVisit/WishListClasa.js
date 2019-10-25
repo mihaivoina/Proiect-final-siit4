@@ -8,45 +8,51 @@ class WishListClasa extends Component {
 
     state = {
         user:'',
-        list:[]
+        deleted: false
     }
 
-    async componentDidMount() {
-        let reswish = {};
+    // async componentDidMount() {
+    //     let reswish = {};
 
-        try {
-            reswish = await Axios.get('http://localhost:3004/wishList/');
-        } catch (e) {
-            if(e.reswish.status === 404) {
-                console.log(404);
-            }
-            reswish.data = {}
-        }
+    //     try {
+    //         reswish = await Axios.get('http://localhost:3004/wishList/');
+    //     } catch (e) {
+    //         if(e.reswish.status === 404) {
+    //             console.log(404);
+    //         }
+    //         reswish.data = {}
+    //     }
 
-        let checkW = reswish.data;
-        for(let i=0; i<checkW.length; i++) {
-            if(checkW[i].iduser === this.context.user.id && checkW[i].idchurch === this.props.churchId) {
+    //     let checkW = reswish.data;
+    //     for(let i=0; i<checkW.length; i++) {
+    //         if(checkW[i].iduser === this.context.user.id && checkW[i].idchurch === this.props.churchId) {
 
                 
-                this.setState({
-                    user: checkW[i].id
-                });
+    //             this.setState({
+    //                 user: checkW[i].id
+    //             });
                 
-            }
-        }
-    }
+    //         }
+    //     }
+    // }
 
     handleDelete = async () => {
-        
-        await Axios.delete(`http://localhost:3004/wishList/${this.state.user}`)
-        .then(res => console.log(res.data));
+        const res = await Axios(`http://localhost:3004/wishList?iduser=${this.context.user.id}&idchurch=${this.props.churchId}`);
 
+        const churchId = res.data[0].id;
+        console.log(res);
         
+        await Axios.delete(`http://localhost:3004/wishList/${churchId}`)
+        this.setState({
+            deleted: true
+        })
     }
 
     
     render() {
-        
+        if (this.state.deleted) {
+            return null;
+        }
       
         return(
             <>
@@ -57,7 +63,7 @@ class WishListClasa extends Component {
                     <img  src={this.props.image1List} alt="" width="100px" />
                 </div>
             </div>
-            <button onClick={this.handleDelete} >Delete</button> 
+            <button onClick={ this.handleDelete } >Delete</button> 
             </>
         );
     }
