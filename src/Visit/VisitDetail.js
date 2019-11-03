@@ -69,8 +69,9 @@ class VisitDetail extends Component {
 
             let iduser = this.context.user.id;
             let idchurch = this.state.church.id;
+            let comments = [];
 
-            const data = {iduser, idchurch}
+            const data = {iduser, idchurch, comments}
             await Axios.post('http://localhost:3004/wishList/', data);
 
             const newListed = 'Adaugat in Wish to Visit.';

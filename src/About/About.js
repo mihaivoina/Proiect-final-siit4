@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Footer from '../Footer/Footer';
+
 
 class About extends Component {
 
@@ -34,6 +36,8 @@ class About extends Component {
         Imaginea, dominată de biserica fortificată, a localităţilor săseşti, puţin modificată în ultimele două secole, este completată de peisajul înconjurător, modelat de ocupaţiile tradiţionale.
         </p>
     </div>
+    <Footer />
+
     </>
         );
     }

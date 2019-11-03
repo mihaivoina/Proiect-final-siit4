@@ -12,7 +12,7 @@ class Register extends Component {
     static contextType = SessionContext;
 
     state= {
-        id: '',
+        // id: '',
         username: '',
         firstName: '',
         lastName: '',
@@ -31,12 +31,12 @@ class Register extends Component {
         let getUsers = {};
         getUsers = await Axios ('http://localhost:3004/users/');
 
-        let newId = getUsers.data.length + 1;
+        // let newId = getUsers.data.length + 1;
     
-        this.setState({id: newId});
+        // this.setState({id: newId});
     
-        const {id, username, firstName, lastName, email, password} = this.state;
-        const data = {id, username, firstName, lastName, email, password};
+        const {username, firstName, lastName, email, password} = this.state;
+        const data = {username, firstName, lastName, email, password};
 
         for(let i=0; i<getUsers.data.length; i++) {
             let checkDuplicates = getUsers.data[i].username;

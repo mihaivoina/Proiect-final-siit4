@@ -3,3 +3,11 @@
     margin-top: 30px;
     padding-top: 30px;
 }
+
+.list-style {
+    list-style-type: none;
+}
+
+.padding-row {
+    padding-top: 20px;
+}

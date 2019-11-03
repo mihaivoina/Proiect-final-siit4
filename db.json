@@ -9,14 +9,6 @@
       "lastName": "Negoescu"
     },
     {
-      "id": 2,
-      "username": "andrei",
-      "password": "parola",
-      "email": "andrei.popescu@scoalainformala.ro",
-      "firstName": "Andrei",
-      "lastName": "Popescu"
-    },
-    {
       "id": 3,
       "username": "mihai",
       "password": "parola",
@@ -41,44 +33,62 @@
       "password": "parola"
     },
     {
-      "id": 6,
       "username": "test",
       "firstName": "test",
       "lastName": "test",
-      "email": "test@test",
-      "password": "parola"
+      "email": "te@t",
+      "password": "parola",
+      "id": 6
+    },
+    {
+      "username": "test1",
+      "firstName": "Test1",
+      "lastName": "t1",
+      "email": "t@t",
+      "password": "parola",
+      "id": 7
     }
   ],
   "wishList": [
     {
       "iduser": 4,
       "idchurch": 1,
-      "id": 2
+      "comments": [
+        "primul comentariu",
+        "al doilea comentariu",
+        "al treilea"
+      ],
+      "id": 63
     },
     {
       "iduser": 4,
-      "idchurch": 7,
-      "id": 22
+      "idchurch": 2,
+      "comments": [
+        "Primul comentariu",
+        "Al doilea"
+      ],
+      "id": 64
+    },
+    {
+      "iduser": 4,
+      "idchurch": 4,
+      "comments": [],
+      "id": 65
     },
     {
       "iduser": 3,
       "idchurch": 1,
-      "id": 23
-    },
-    {
-      "iduser": 3,
-      "idchurch": 3,
-      "id": 24
-    },
-    {
-      "iduser": 3,
-      "idchurch": 4,
-      "id": 25
+      "comments": [
+        "Doresc sa o vizitez in primul week-end in care pot face o excursie.",
+        "Daca astept sa intru cu un grup am avantajul unei prezentari a istoriei locale facuta de un ghid!"
+      ],
+      "id": 66
     },
     {
       "iduser": 3,
       "idchurch": 2,
-      "id": 26
+      "comments": [],
+      "id": 67
     }
   ],
   "churches": [
